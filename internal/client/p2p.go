@@ -10,7 +10,7 @@ import (
 	"dev.c0redev.0cdn/internal/idwords"
 )
 
-// RegisterP2PExit registers client as P2P exit (addr = public, e.g. STUN or 0CDN_P2P_ADDR; nodeID = unique).
+// RegisterP2PExit registers client as P2P exit (addr = public, e.g. STUN or 0CDN_P2P_ADDR; nodeID = unique)
 func RegisterP2PExit(serverURL, token, addr, nodeID string) error {
 	return RegisterP2PExitWithICE(serverURL, token, addr, nodeID, "", "", "")
 }
