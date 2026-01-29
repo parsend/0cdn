@@ -1,0 +1,35 @@
+# build
+/server
+/agent
+/client
+*.exe
+*.test
+*.out
+
+# deps
+/vendor
+
+# db
+*.db
+*.db-journal
+
+# env (keep examples)
+.env
+.env.local
+!.example.env
+
+# ide
+.idea
+.vscode
+*.swp
+*.swo
+
+# web
+/web
+
+# os
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
